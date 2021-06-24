@@ -12,4 +12,17 @@ export class BasicAngularComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  textColor:boolean = true;
+  textSize:boolean = true;
+  textStyle:boolean = true;
+  ngmodelSample:string = "";
+
+  currentClasses: Record<string, boolean> = {
+    textSize: this.textSize,
+    textColor: this.textColor,
+  };
+
+  currentStyles: Record<string, string> = {
+    'font-style':  this.textStyle ? 'italic' : 'normal'
+  }
 }

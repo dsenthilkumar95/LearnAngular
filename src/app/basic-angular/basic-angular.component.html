@@ -4,6 +4,11 @@
         <title>Basic Angular</title>
     </head>
     <body>
-        
+        <div class="divBorder"> Built-in attribute directives
+            <p [ngClass]="currentClasses"> Ng Class Sample</p>
+            <p [ngStyle]="currentStyles">Ng Style Sample</p>
+            <input [(ngModel)]=ngmodelSample><br>
+            <label>[(ngModel)]: {{ngmodelSample}}</label>
+        </div>
     </body>
 </html>

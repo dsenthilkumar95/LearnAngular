@@ -1,0 +1,10 @@
+.textColor{
+    color: red;
+}
+.textSize{
+    font-size: larger;
+}
+.divBorder{
+    border: 1px solid red;
+    width:max-content;
+}
